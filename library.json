@@ -1,0 +1,32 @@
+{
+  "name": "sp800-208-xmss-esp32",
+  "version": "0.1.0",
+  "description": "XMSS and XMSS^MT stateful hash-based post-quantum signatures (RFC 8391, NIST SP 800-208) for ESP32: all SP 800-208 parameter sets, write-ahead state updates in NVS, SP 800-208 multi-tree keys, tree caches, optional SHA hardware acceleration.",
+  "keywords": "post-quantum, cryptography, digital-signature, xmss, xmssmt, hash-based, stateful, sp800-208, pqc",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "The sp800-208-xmss-esp32 authors",
+      "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "headers": [
+    "XMSS.h",
+    "XMSS_NVS.h",
+    "xmss_esp32.h",
+    "xmss_esp32_config.h",
+    "xmss_core.h"
+  ],
+  "export": {
+    "exclude": [
+      "scripts/.kat-data"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ANONYMIZED-FOR-REVIEW/sp800-208-xmss-esp32.git"
+  },
+  "homepage": "https://github.com/ANONYMIZED-FOR-REVIEW/sp800-208-xmss-esp32"
+}
